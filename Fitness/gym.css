@@ -1,0 +1,383 @@
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar {
+  margin: 30px 0px;
+  display: inline-block;
+  margin-left: 50px;
+}
+.navbar li a {
+  text-decoration: none;
+  padding-left: 15px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  height: 840px;
+  background: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/bronxltdlm/kulturistas-m7oWrM175eu7nJ9O.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.h3 {
+  display: inline-block;
+  font-family: "Righteous", cursive;
+  margin-left: 20px;
+  font-weight: bolder;
+  font-size: 25px;
+  position: relative;
+  top: 4px;
+}
+
+.h3:hover {
+  cursor: pointer;
+}
+
+.strong {
+  display: inline-block;
+  margin-top: 250px;
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+  width: 900px;
+  height: 150px;
+  font-family: "Oswald", sans-serif;
+  font-size: 80px;
+  font-weight: bolder;
+}
+.p {
+  margin-top: 50px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: larger;
+  margin-left: 20px;
+}
+.button {
+  margin-top: 70px;
+  margin-left: 20px;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: red;
+  color: white;
+}
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+.second-container {
+  width: 100%;
+  height: 1600px;
+}
+.second-container h1 {
+  font-family: "Oswald", sans-serif;
+  position: relative;
+  top: 150px;
+  left: 20px;
+  font-size: 48px;
+}
+
+.image1 {
+  display: inline-block;
+}
+
+.image1 img {
+  height: 380px;
+  width: 500px;
+  margin-top: 280px;
+  margin-left: 20px;
+}
+.image1 h3 {
+  font-family: "Oswald", sans-serif;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.image2 {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+}
+.image2 img {
+  height: 380px;
+  width: 500px;
+  margin-top: 280px;
+  margin-left: 20px;
+}
+.image2 h3 {
+  font-family: "Oswald", sans-serif;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 5px;
+}
+.image3 {
+  display: inline-block;
+}
+.image3 img {
+  height: 380px;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.image3 h3 {
+  font-family: "Oswald", sans-serif;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 5px;
+}
+.image4 {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+}
+.image4 img {
+  height: 380px;
+  width: 500px;
+  margin-top: 50px;
+}
+.image4 h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  margin-top: 5px;
+}
+.btn {
+  font-family: "Oswald", sans-serif;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 500px;
+  margin-top: 60px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+.third-container {
+  width: 100%;
+  height: 680px;
+  border: solid black;
+}
+.third-container {
+  background-image: url("Fitness Images/thirdcontainer.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.t-h1 {
+  margin-top: 150px;
+  margin-left: 20px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 45px;
+}
+.t-p1 {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  margin-left: 20px;
+  width: 500px;
+  margin-top: 50px;
+  line-height: 1.5;
+}
+.t-p2 {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  margin-left: 20px;
+  width: 500px;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.t-btn {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: none;
+  margin-left: 20px;
+  margin-top: 80px;
+  background-color: red;
+}
+.t-btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+.fourth-container {
+  width: 100%;
+  height: 680px;
+  border: solid rgb(0, 0, 0);
+}
+.fourth-container {
+  background-image: url("Fitness Images/fourthcontainer.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 125% 100%;
+}
+
+.f-h3 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  margin-left: 850px;
+  margin-top: 140px;
+}
+.f-p1 {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  margin-left: 850px;
+  line-height: 1.5;
+}
+.f-p2 {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  margin-left: 850px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.f-btn {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  padding: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border: none;
+  background-color: red;
+  margin-left: 850px;
+  margin-top: 80px;
+}
+.f-btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+.sixth-container {
+  width: 100%;
+  height: 430px;
+  border: solid white;
+}
+.seventh-container {
+  width: 100%;
+  height: 400px;
+  border: solid black;
+}
+.s-h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+.s-btn {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  background-color: red;
+  border: none;
+  padding: 15px;
+  margin-left: 20px;
+  padding-right: 50px;
+  padding-left: 45px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.s-btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+.seventh-container {
+  background-color: black;
+  width: 100%;
+  height: 500px;
+  border: solid black;
+}
+
+.s-fd {
+  display: inline-block;
+}
+.s-fd h3 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  margin-top: 180px;
+  margin-left: 30px;
+}
+.s-p1 {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  margin-left: 30px;
+}
+
+.s-p2 {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+.s-sd {
+  display: inline-block;
+  position: absolute;
+  right: 300px;
+}
+.sd-h3 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  margin-top: 180px;
+  margin-left: 30px;
+}
+.sd-p1 {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  margin-left: 30px;
+}
+
+.sd-p2 {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
+.twitter {
+  width: 35px;
+  height: 35px;
+  margin-top: 30px;
+  margin-left: 30px;
+  position: relative;
+  bottom: -8px;
+}
+.facebook {
+  width: 28px;
+  height: 28px;
+  margin-left: 50px;
+  position: relative;
+  bottom: -3px;
+}
+.instagram {
+  width: 65px;
+  height: 50px;
+  margin-left: 50px;
+  position: relative;
+  bottom: -14px;
+}
